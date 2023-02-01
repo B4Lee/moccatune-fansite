@@ -4,22 +4,30 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal; 
+}
+
+.jumbotron {
+  background-image: url(../assets/images/moccatune.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container-fluid {
   background-image: url(../assets/images/ImgResponsive_Placeholder.png);
 }
+
 .navbar.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 .navbar-nav.mr-auto {
   margin-left: 777px;
 }
+
 .container-fluid .container .jumbotron {
   background-color: #FFFFFF;
 }
 
-.carousel-item{
-      transition: -webkit-transform .3s ease;
-      transition: transform .3s ease;
-      transition: transform .3s ease,-webkit-transform .3s ease;
-  } 
+.carousel-item {
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
